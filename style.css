@@ -1,0 +1,347 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+	max-width: 1920px;
+	font-weight: 400;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.header_left,.header_right{
+	vertical-align:center;
+}
+
+#header_left{
+}
+
+.header{
+	width: 100%;
+	height: 82px;
+	padding: 0 36px;
+	display: block;
+}
+
+.header_li{
+	color:inherit;
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	vertical-align: center;
+	padding-top: 15px;
+	padding-left:30px;
+	padding-bottom: 15px;
+
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.item1{
+	text-align: center;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.item2, .item5, .item6,.item8,.item6{
+	width: 955px;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.item1{
+	/*margin:0 auto;
+	text-align: center;*/
+	background-size: contain;
+	background: url(img/top.jpg);
+	height: 400px;
+}
+
+
+.item1_left,.item1_right{
+	width:25%;
+}
+
+.item1content{
+	float: left;
+}
+
+.item1_left{
+	position: relative;
+	top: 100px;
+	bottom: 0;
+	left: 400px;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	z-index: 100;
+}
+
+.item1_right{
+	position: relative;
+	top: 100px;
+	bottom: 0;
+	left: 500px;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	z-index: 100;
+}
+
+.item1:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.item2,.item2all{
+	position: relative;
+}
+
+.item2{
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+.item2 h2,.item3 h2,.item5 h2{
+	text-align: center;
+	line-height: 1.7;
+	margin-bottom: 80px;
+}
+
+.item2 ul{
+	list-style: none;
+	padding:0;
+}
+
+.item2 h3{
+	padding: 5px 0 20px 0;
+	font-size: 24px;
+	line-height: 1.25;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.item2 ul li{
+	width: 50%;
+}
+
+.item2 ul li p{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 58px;
+	text-align: center;
+}
+
+.img2_left{
+	text-align: center;
+}
+
+.img2_right{
+	position: relative;
+	top: -40px;
+	text-align:right;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+
+.item3{
+	width: 1440px;
+}
+
+.item3 p{
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.img3content{
+	float: left;
+	width: 25%;
+	margin-bottom: 35px;
+	padding-top: 155px;
+}
+
+
+.img3content-c{
+	float: left;
+	width: 50%;
+	margin-bottom: 35px;
+	padding-top: 155px;
+}
+
+.img3_1{
+	margin-right: 28px;
+	z-index: 10;
+	color: black;
+}
+
+.img3_3{
+	float: left;
+	width: 400px;
+	margin-bottom: 0;
+	padding-top: 0;
+	position: relative;
+	z-index: 9999;
+	text-align: center;
+}
+.img3_5{
+	z-index: 10;
+	color: black;
+}
+
+.item4{
+	margin-top: 90px;
+}
+
+.img4{
+	float: left;
+	width: 622px;
+}
+
+.item4right{
+	float:left;
+	width: 508px;
+	padding-top: 250px;
+	margin-left: 67px;
+}
+
+.item4right h2{
+	font-size: 30px;
+	line-height: 1.7;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.h2_under{
+	font-size: 36px;
+	color: #0a318f;
+}
+
+.item4right p{
+	font-size: 16px;
+	line-height: 2.6;
+	text-align: center;
+}
+
+.item5{
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+
+.item5 p{
+	font-size: 14px;
+	line-height: 1.8;
+	font-weight: bold;
+}
+
+.item5con{
+	float: left;
+	width: 220px;
+	font-size: 12px;
+	margin-right: 60px;
+	color: #0A308F;
+	text-align: center;
+}
+
+.img5_4{
+	margin-right: 0;
+}
+
+.item6{
+	margin-top: 120px;
+}
+
+.item6_2p p{
+	font-size: 13px;
+	text-align: left;
+	margin-bottom: 40px;
+}
+.item6_1{
+	margin:0 auto 145px;
+}
+
+.item6chui{
+	/*text-align: center;*/
+	font-size: 11px;
+}
+
+.item6_2t{
+	margin-bottom: 55px;
+}
+
+.last{
+	margin-bottom: 30px;
+}
+
+.keyframe0{
+    animation-name: anim_po;
+    position: absolute;
+}
+
+@keyframes animation_test {
+    0% {
+        transform: translate(0,0px);
+    }
+
+    100% {
+        transform: translate(0,-15px)
+    }
+}
+
+.keyframe_test {
+    animation-name: animation_test;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+}
+
+.fa-om, .fa-vihara{
+	color:white;
+	font-weight: 400;
+	font-family: "Font Awesome 5 Free";
+	float: left;
+	display: inline-block;
+	font-size: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

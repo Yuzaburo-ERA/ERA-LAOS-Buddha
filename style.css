@@ -15,7 +15,7 @@
 }
 
 .header{
-	width: 100%;
+	width: 1440px;
 	height: 82px;
 	padding: 0 36px;
 	display: block;
@@ -166,7 +166,6 @@ h2{
 
 .img3_3{
 	float: left;
-	width: 400px;
 	margin-bottom: 0;
 	padding-top: 0;
 	position: relative;

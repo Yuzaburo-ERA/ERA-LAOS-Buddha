@@ -43,12 +43,10 @@
 
 
 .item1{
-	text-align: center;
-	position: relative;
 	margin-bottom: 100px;
 }
 
-.item2,.item3, .item5, .item6,.item8,.item6{
+.item1,.item2,.item3, .item5, .item6,.item8{
 	width: 1440px;
 	margin:0 auto;
 	text-align: center;

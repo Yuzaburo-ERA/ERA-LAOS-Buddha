@@ -184,7 +184,8 @@ h2{
 .item4right h2{
 	padding-top:30px;
 	font-size: 30px;
-	line-height: 1.7;
+	line-height: 1.1;
+	margin-top:35px;
 	margin-bottom: 35px;
 	text-align: center;
 }

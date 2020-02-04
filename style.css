@@ -182,7 +182,7 @@ h2{
 
 .img4{
 	float: left;
-	width: 622px;
+	width: 100%;
 }
 
 .item4right{
@@ -208,6 +208,10 @@ h2{
 	font-size: 16px;
 	line-height: 2.6;
 	text-align: center;
+}
+
+.item4con{
+	width:50%
 }
 
 .item5{

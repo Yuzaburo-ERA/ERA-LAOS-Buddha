@@ -218,9 +218,10 @@ h2{
 
 .item5con{
 	float: left;
-	width: 220px;
+	width: 25%;
 	font-size: 12px;
-	margin-right: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
 	color: black;
 	text-align: center;
 }

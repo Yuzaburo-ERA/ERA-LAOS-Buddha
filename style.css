@@ -149,22 +149,15 @@ h2{
 }
 
 
-.img3content-c{
-	float: left;
-	width: 400px;
-	margin-bottom: 35px;
-	padding-top: 155px;
-}
-
 .img3_1{
 	margin-right: 28px;
 	z-index: 10;
 	color: black;
 }
 
-.img3_3{
+.img3content-c{
+	width: 400px;
 	float: left;
-	width:100%;
 	margin-bottom: 0;
 	padding-top: 0;
 	position: relative;

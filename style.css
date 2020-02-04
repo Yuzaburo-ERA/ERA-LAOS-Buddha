@@ -186,11 +186,10 @@ h2{
 
 .item4right{
 	float:left;
-	width: 508px;
-	padding-top: 250px;
 }
 
 .item4right h2{
+	padding-top:30px;
 	font-size: 30px;
 	line-height: 1.7;
 	margin-bottom: 35px;
@@ -210,8 +209,7 @@ h2{
 
 .item4con{
 	width:50%;
-	float: left;
-	
+	float: left;	
 }
 
 .item5{

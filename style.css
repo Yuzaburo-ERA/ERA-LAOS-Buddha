@@ -68,7 +68,7 @@
 	top: 100px;
 	bottom: 0;
 	left: 500px;
-	right: 500px;
+	right: 770px;
 	margin: auto;
 	z-index: 100;
 }
@@ -151,7 +151,7 @@ h2{
 
 .img3content-c{
 	float: left;
-	width: 50%;
+	width: 400px;
 	margin-bottom: 35px;
 	padding-top: 155px;
 }

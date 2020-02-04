@@ -73,7 +73,7 @@
 	z-index: 100;
 }
 
-.item1:after{
+.item1:after,.item4:after{
 	content: "";
 	clear: both;
 	display: table;
@@ -181,7 +181,6 @@ h2{
 }
 
 .img4{
-	float: left;
 	width: 100%;
 }
 
@@ -211,7 +210,9 @@ h2{
 }
 
 .item4con{
-	width:50%
+	width:50%;
+	float: left;
+	
 }
 
 .item5{

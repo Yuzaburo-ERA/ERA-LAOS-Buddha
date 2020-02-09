@@ -15,7 +15,7 @@
 }
 
 .header{
-	width: 1440px;
+	width: 970px;
 	height: 82px;
 	padding: 0 36px;
 	display: block;
@@ -47,7 +47,7 @@
 }
 
 .item1,.item2,.item3, .item4,.item5, .item6{
-	width: 1440px;
+	width: 970px;
 	margin:0 auto;
 	text-align: center;
 	position: relative;
